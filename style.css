@@ -13,8 +13,9 @@ html {
 body {
     display: flex;
     flex-direction: column;
-    flex: auto;
+    flex: 1;
 }
+
 
 /* Header and Hero */
 
@@ -64,7 +65,8 @@ body {
     font-size: 18px;
 }
 
-.hero-text button {
+.hero-text button,
+.signup-button button {
     background: #3882F6;
     color: #F9FAF8;
     width: 130px;
@@ -143,4 +145,44 @@ blockquote p::after {
     font-size: 1.3rem;
     font-weight: 600;
     text-align: right;
+}
+
+
+/* Sign up section */
+
+.signup-container {
+    background-color: #3882F6;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 8px;
+    margin: 100px 250px;
+    padding: 50px 130px;
+}
+
+.signup-text p:first-of-type {
+    color: #F9FAF8;
+    font-size: 1.5rem;
+    font-weight: 500;
+}
+
+.signup-text p:nth-of-type(2) {
+    color: #E5E7EB;
+}
+
+.signup-button button {
+    border-color: #F9FAF8;
+}
+
+
+/* Footer section */
+
+.footer {
+    background-color: #1F2937;
+    color: #E5E7EB;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 35px;
+    font-size: 1.2rem;
 }
